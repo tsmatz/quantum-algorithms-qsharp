@@ -13,7 +13,7 @@ For details about these algorithms, see [this series](https://tsmatz.wordpress.c
 ## How to set up quantum local simulator
 
 By using Jupyter notebooks on Azure Quantum, you can develop and run Q# code without installing any additional tools.<br>
-In this setting, we'll install Quantum Development Kit (QDK) on local machine (Ubuntu), and run Q# on local simulator.
+In this setting, however, we'll install Quantum Development Kit (QDK) on local machine (Ubuntu) to run Q# code on local simulator.
 
 1. Create Ubuntu Server 20.04 LTS virtual machine in [Azure Portal](https://portal.azure.com/).
 2. Login to Ubuntu and check whether Python 3.8 is installed.<br>
