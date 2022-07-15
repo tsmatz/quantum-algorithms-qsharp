@@ -1,6 +1,6 @@
 # Quantum Algorithms in Q#
 
-This example shows you quantum algorithm's implementation by Q# code.
+These examples show you quantum algorithm's implementation by Q# code.
 
 For details about these algorithms, see [this series](https://tsmatz.wordpress.com/2019/02/21/quantum-computing-programming-qsharp-for-phase-kickback/) in my blog post.
 
