@@ -26,23 +26,27 @@ python3 -V
 wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.12.0-Linux-x86_64.sh
 bash Miniconda3-py38_4.12.0-Linux-x86_64.sh
 ```
-4. Logout and login again to make the changes take effect.<br>
-And, create conda environment with the following channel (additional packages).<br>
+4. Clone this repository as follows.<br>
+```
+git clone https://github.com/tsmatz/quantum-algorithms-qsharp
+```
+5. Logout and login again to make changes take effect.<br>
+After logging-in, create conda environment with the following channel (additional packages).<br>
 ```
 conda create -n qsharp-env -c microsoft qsharp notebook
 ```
-5. Activate this environment. (Everytime you login to this local machine, please activate this environment.)<br>
+6. Activate this environment. (Everytime you login to this computer, activate this conda environment as follows.)<br>
 ```
 conda activate qsharp-env
 ```
-6. Run Jupyter notebook in this conda environment.<br>
+7. Run Jupyter notebook in this conda environment.<br>
+Copy notebook URL (such as, ```http://localhost:8888/?token=...```) in console output.
 ```
 jupyter notebook
 ```
-7. Connect to Ubuntu server with SSH tunnel (port forwarding) from your working desktop in order to access notebook URL.
-For instance, the following is the SSH tunnel setting on "PuTTY" terminal client in Windows. (You can use ```ssh -L``` option in Mac OS.)<br>
+8. In your local desktop, connect to Ubuntu server with SSH tunnel (port forwarding) in order for accessing notebook URL.<br>
+For instance, the following is the SSH tunnel setting on "PuTTY" terminal client in Windows. (You can use ```ssh -L``` command in Mac OS.)<br>
 ![SSH Tunnel settings with putty](https://tsmatz.github.io/images/github/azure-ml-tensorflow-complete-sample/20191225_SSH_Tunnel.jpg)
-8. Copy the notebook URL (```http://localhost:8888/?token=...```) in the console output and open this address with your web browser.
-9. Clone this repository and run each notebook.
+9. Open notebook with your web browser.
 
 *Tsuyoshi Matsuzaki @ Microsoft*
